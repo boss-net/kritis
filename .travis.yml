@@ -3,7 +3,7 @@ os: linux
 
 go:
   - 1.15.x
-go_import_path: github.com/grafeas/kritis
+go_import_path: github.com/boss-net/kritis
 
 script:
   - ./hack/download-codegen.sh
